@@ -1,4 +1,5 @@
-ejecicio 1
+EJEMPLO (1)
+
 println ("horas trabajo")
 val horastrabajo=readfloat()
 println ("pago hora")
@@ -15,3 +16,49 @@ val pagoextra=readfloat()
 val pagoextra=horasextras*pagohoraextra+pagonormal
 val pagototal=pagonormal+pagoextra
 println ("pagototal="+pagototal)
+
+EJEMPLO (2)
+
+var pieza=0.0
+val montototal=0.0
+val cantidadinvertida=0.0
+val cantidadprestada=0.0
+val cantidadcredito=0.0
+println ("¿cuanto cuesta la pieza?")
+val preciopieza=readfloat()
+println ("¿cuantas piezas compro?")
+val numpiezas=readfloat()
+montototal=preciopieza*numpieza
+println("monto total:"+montototal)
+for (i > 1 to 50000){
+{
+cantidadinvertida=montototal*.55/100
+}
+montototal=cantidadinvertida
+println ("vas a invertir:"+ cantidadinvertida)
+{
+cantidadprestada=montotal*.30/100
+}
+montototal=cantidadprestada
+println ("te van a prestar:"+cantidadprestada)
+{
+cantidadcredito=montototal*.15/100
+}
+montototal=cantidadcredito
+println ("cantidad a credito:"+cantidadcredito)
+}
+println ("monto total"+montototal "|cantidad invertida"+cantidadinvertida "|cantidad prestada"+cantidadprestada "|cantidad credito"+cantidadcredito)
+
+for (i < 1 to 50000){
+{
+cantidadinvertida=montototal*.70/100
+}
+montototal=cantidadinvertida
+println ("vas a invertir:"+vantidadinvertida)
+{
+cantidadcredito=montototal*.30/100
+}
+montototal=cantidadcredito
+println ("te van a prestar:"+cantidadprestada)
+}
+println ("monto total"+mantototal "|cantidad invertida"+cantidadinvertida "|cantidad credito"+cantidadcredito)
